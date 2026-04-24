@@ -1,0 +1,31 @@
+#header {
+    text-align: center;
+}
+
+#logo {
+   float:left
+    
+}
+
+#contacto{
+ float: right;
+  
+}
+
+#botones {
+    text-align: center;
+}
+
+#FORM {
+     margin-top: 100px;
+}
+#formulario label , #formulario input {
+    display: block;
+    text-align: center;
+      margin: 3px auto; 
+    
+}
+
+#pie{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header">Cuenta de Correo|Registro</h1>
+    </header>
+    <nav>
+        <a id="logo">UdeC</a>
+        <a id="contacto">Acerca|Contacto</a>
+    </nav>
+
+    <main>
+        <form id="FORM">
+            <div id="formulario">
+                <label for="Usuario">Usuario</label>
+                <input type="text" id="Usuario">
+                <label for="Correo">Correo</label>
+                <input type="text" id="Correo">
+            </div>
+        </form>
+        <div id="botones">
+            <button type="button" onclick="resetear()">Cancelar</button>
+            <button type="button" onclick="crear(event)">Crear</button>
+        </div>
+        <ul id="UL">
+
+        </ul>
+
+    <button type="button" onclick="change()">Change Header</button>
+    </main>
+    <footer id="pie">Derechos Reservados</footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
